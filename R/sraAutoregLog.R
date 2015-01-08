@@ -79,7 +79,7 @@ function (sradata, active = c(FALSE, TRUE, FALSE, FALSE), start = NULL,
         sraStartingvalues, sradata = sradata, rand = rand)
     mlewrapper.neg <- function(mu0, logvarA0, logvarE0, relativekA0, 
         kA1, kA2, kA3, relativekE0, kE1, kE2, kE3) {
-        sraMinuslogL.log(sradata = sradata, FUNtimeseries = sraAutoregTimeseries, 
+        sraMinuslogL.log(sradata.log = sradata, FUNtimeseries = sraAutoregTimeseries, 
             mu0 = mu0, logvarA0 = logvarA0, logvarE0 = logvarE0, 
             relativekA0 = relativekA0, kA1 = kA1, kA2 = kA2, 
             kA3 = kA3, relativekE0 = relativekE0, kE1 = kE1, 
@@ -88,7 +88,7 @@ function (sradata, active = c(FALSE, TRUE, FALSE, FALSE), start = NULL,
     mlewrapper.noneg <- function(mu0, logvarA0, logvarE0, relativekA0, 
         logkA1, logkA2, logkA3, relativekE0, logkE1, logkE2, 
         logkE3) {
-        sraMinuslogL.log(sradata = sradata, FUNtimeseries = sraAutoregTimeseries, 
+        sraMinuslogL.log(sradata.log = sradata, FUNtimeseries = sraAutoregTimeseries, 
             mu0 = mu0, logvarA0 = logvarA0, logvarE0 = logvarE0, 
             relativekA0 = relativekA0, kA1 = exp(logkA1), kA2 = exp(logkA2), 
             kA3 = exp(logkA3), relativekE0 = relativekE0, kE1 = exp(logkE1), 

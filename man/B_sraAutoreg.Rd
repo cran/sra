@@ -110,12 +110,13 @@ autor.log <- sraAutoregLog(data)
 autor.herit <- sraAutoregHerit(data)
 autor.evolv <- sraAutoregEvolv(data)
 
+\donttest{
 # Changes in the complexity of the model:
 autor0 <- sraAutoreg(data, active=c(TRUE,TRUE,FALSE,FALSE))
                          
 # In case of convergence issues
 autor1 <- sraAutoreg(data, active=c(TRUE,TRUE,TRUE,TRUE), rep=2, rand=0.1)
-
+}
 }
 
 \keyword{ models }

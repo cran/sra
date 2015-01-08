@@ -3,8 +3,8 @@ function (parameter, sradata, rand = 0)
 {
     "sraStartingvalues.mu0" <- function(sradata) {
         return(mean(sradata[sradata[, "gen"] == 1, "mean"]) + 
-            rand * rnorm(1, 0, mean(sradata[sradata[, "gen"] == 
-                1, "mean"])))
+            rand * rnorm(1, 0, abs(mean(sradata[sradata[, "gen"] == 
+                1, "mean"]))))
     }
     "sraStartingvalues.logvarA0" <- function(sradata) {
         return(log(0.2 * mean(sradata[, "var"] * exp(rand * rnorm(1, 

@@ -1,10 +1,8 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
-
-# Export all names
-exportPattern(".")
-
-# Import all packages listed as Imports or Depends
-import(
-  stats4
-)
+export(sraData,sraAutoreg,sraAutoregEvolv,sraAutoregHerit,sraAutoregLog,sraCstvar,sraDrift,sraCanalization,sraCanalizationOpt,sraSelection,sraDirepistasis)
+S3method(plot, srafit)
+S3method(coef, srafit)
+S3method(AIC, srafit)
+S3method(logLik, srafit)
+S3method(confint, srafit)
+S3method(vcov, srafit)
+import(stats4)

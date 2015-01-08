@@ -8,10 +8,14 @@
   These functions are used internally by the sra package to compute the likelihood of the dataset given a specific model.
 }
 \usage{
-sraMinuslogL(sradata, FUNtimeseries = sraAutoregTimeseries, Bulmer=TRUE, logvarME=log(1e-20), ...)
-sraMinuslogL.log(sradata.log, FUNtimeseries = sraAutoregTimeseries, Bulmer=TRUE, logvarME=log(1e-20), ...)
-sraAutoregTsMinuslogL(data.mean, data.var, data.N, theor.mean, theor.var, logvarME=log(1e-20))
-sraAutoregTsMinuslogL.log(data.mean, data.var, data.N, theor.mean, theor.var, logvarME=log(1e-20))
+sraMinuslogL(sradata, FUNtimeseries = sraAutoregTimeseries, 
+	Bulmer=TRUE, logvarME=log(1e-20), ...)
+sraMinuslogL.log(sradata.log, FUNtimeseries = sraAutoregTimeseries, 
+	Bulmer=TRUE, logvarME=log(1e-20), ...)
+sraAutoregTsMinuslogL(data.mean, data.var, data.N, 
+	theor.mean, theor.var, logvarME=log(1e-20))
+sraAutoregTsMinuslogL.log(data.mean, data.var, data.N, 
+	theor.mean, theor.var, logvarME=log(1e-20))
 }
 
 \arguments{

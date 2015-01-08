@@ -10,11 +10,26 @@
   Each genetic architecture model leads to an expected dynamics for the mean and the variance of the population, given a selection pressure. These functions provide the expectation of the models, which are used (i) to fit the model by maximum-likelihood, and (ii) to provide the theoretical dynamics of the best model. 
 }
 \usage{
-sraAutoregTimeseries(beta, delta = rep(0, length(beta)), mu0=0, logvarA0=0, logvarE0=0, relativekA0=0, kA1=1, kA2=0, kA3=0, relativekE0=0, kE1=1, kE2=0, kE3=0, threshold=1e-10, logrelativekA0=NULL, logrelativekE0=NULL, logkA1=NULL, logkE1=NULL, logkA2=NULL, logkE2=NULL, logkA3=NULL, logkE3=NULL)
-sraAutoregHeritTimeseries(beta, delta = rep(0, length(beta)), mu0=0, logith20=0, logvarP0=0, relativekA0=0, kA1=1, kA2=0, kA3=0, relativekE0=0, kE1=1, kE2=0, kE3=0, threshold=1e-10, logrelativekA0=NULL, logrelativekE0=NULL, logkA1=NULL, logkE1=NULL, logkA2=NULL, logkE2=NULL, logkA3=NULL, logkE3=NULL)
-sraAutoregEvolvTimeseries(beta, delta = rep(0, length(beta)), mu0=0, logIA0=0, logIE0=0, relativekA0=0, kA1=1, kA2=0, kA3=0, relativekE0=0, kE1=1, kE2=0, kE3=0, threshold=1e-10, logrelativekA0=NULL, logrelativekE0=NULL, logkA1=NULL, logkE1=NULL, logkA2=NULL, logkE2=NULL, logkA3=NULL, logkE3=NULL)
-sraTimeseries(beta, delta = rep(0, length(beta)), mu0=0, logvarA0=0, logvarE0=0, logNe=log(100), logn=log(1e+10), logvarM=log(1e-20), kc=0, kg=0, o=mu0, s=0)
-sraEpiTimeseries(beta, delta = rep(0, length(beta)), mu0=0, logvarA0=0, logvarE0=0, logNe=log(1000), logvarM=log(1.e-20), logepsilon=0, logminusepsilon=NA, logvarepsilon=0)
+sraAutoregTimeseries(beta, delta=rep(0, length(beta)), mu0=0, logvarA0=0, logvarE0=0, 
+	relativekA0=0, kA1=1, kA2=0, kA3=0, 
+	relativekE0=0, kE1=1, kE2=0, kE3=0, threshold=1e-10, 
+	logrelativekA0=NULL, logrelativekE0=NULL, 
+	logkA1=NULL, logkE1=NULL, logkA2=NULL, logkE2=NULL, logkA3=NULL, logkE3=NULL)
+sraAutoregHeritTimeseries(beta, delta=rep(0, length(beta)), mu0=0, logith20=0, logvarP0=0,
+	relativekA0=0, kA1=1, kA2=0, kA3=0, 
+	relativekE0=0, kE1=1, kE2=0, kE3=0, threshold=1e-10, 
+	logrelativekA0=NULL, logrelativekE0=NULL, 
+	logkA1=NULL, logkE1=NULL, logkA2=NULL, logkE2=NULL, logkA3=NULL, logkE3=NULL)
+sraAutoregEvolvTimeseries(beta, delta=rep(0, length(beta)), mu0=0, logIA0=0, logIE0=0, 
+	relativekA0=0, kA1=1, kA2=0, kA3=0, 
+	relativekE0=0, kE1=1, kE2=0, kE3=0, threshold=1e-10, 
+	logrelativekA0=NULL, logrelativekE0=NULL, 
+	logkA1=NULL, logkE1=NULL, logkA2=NULL, logkE2=NULL, logkA3=NULL, logkE3=NULL)
+sraTimeseries(beta, delta=rep(0, length(beta)), mu0=0, logvarA0=0, logvarE0=0, 
+	logNe=log(100), logn=log(1e+10), logvarM=log(1e-20), kc=0, kg=0, o=mu0, s=0)
+sraEpiTimeseries(beta, delta=rep(0, length(beta)), mu0=0, logvarA0=0, logvarE0=0, 
+	logNe=log(1000), logvarM=log(1.e-20), 
+	logepsilon=0, logminusepsilon=NA, logvarepsilon=0)
 
 }
 \arguments{
