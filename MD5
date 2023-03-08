@@ -1,4 +1,4 @@
-dd499cf81b251ad842cbecf24bc2a9b5 *DESCRIPTION
+6e71030b16099339499bf3ca9dcdc948 *DESCRIPTION
 ee6c762afa13b28fba3052107752df35 *NAMESPACE
 154e79d40b409d0c2e1c18e920eccbd6 *R/AIC.srafit.R
 f9172384f8840c40bf9dc648b698a44b *R/BIC.srafit.R
@@ -36,9 +36,10 @@ b55b82a3e1a0726c3c32a13532c22fdc *R/sraSelection.R
 838084b139204e45ef7e9c91b4731c65 *R/sraStartingvalues.R
 dbc1397c002d3d8fb0e1caa91579bff1 *R/sraTimeseries.R
 a442c6844478d1d291ef7784919c8532 *R/vcov.srafit.R
+df6d052b898d97fbc8b10bbdd26dfde8 *README.md
 2f67c66fb8e71bf353485bb198b80a37 *man/A-sra-package.Rd
-4fd13441c95777dcc48cbdbdc41276f0 *man/B_sraAutoreg.Rd
-36e3265f127f209cca584266100e2934 *man/C_sraMechanistic.Rd
+ec415bbf033fb46728bc4a6dcaa2c32e *man/B_sraAutoreg.Rd
+e7bb7b3f04675018a07b1c42ef3b8e97 *man/C_sraMechanistic.Rd
 432f0ad1adfb68d5e24a7192205a9418 *man/D_methods.srafit.Rd
 d5ed3dd933256d62d5bb92ab11d8ea30 *man/E_plot.srafit.Rd
 b12bad10679a7cec6a695933fc7751d4 *man/sraAutoregTimeseries.Rd
