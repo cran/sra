@@ -1,4 +1,4 @@
-6e71030b16099339499bf3ca9dcdc948 *DESCRIPTION
+5fe9573e76fe1c6f5254d7af2f8b8f19 *DESCRIPTION
 ee6c762afa13b28fba3052107752df35 *NAMESPACE
 154e79d40b409d0c2e1c18e920eccbd6 *R/AIC.srafit.R
 f9172384f8840c40bf9dc648b698a44b *R/BIC.srafit.R
@@ -42,7 +42,7 @@ ec415bbf033fb46728bc4a6dcaa2c32e *man/B_sraAutoreg.Rd
 e7bb7b3f04675018a07b1c42ef3b8e97 *man/C_sraMechanistic.Rd
 432f0ad1adfb68d5e24a7192205a9418 *man/D_methods.srafit.Rd
 d5ed3dd933256d62d5bb92ab11d8ea30 *man/E_plot.srafit.Rd
-b12bad10679a7cec6a695933fc7751d4 *man/sraAutoregTimeseries.Rd
+7a448bc644da61eb5057d4e252da59f2 *man/sraAutoregTimeseries.Rd
 25837ceec3760cff5501bc66ce42c92c *man/sraData.Rd
 7cccd7fbb3a729aba126101cfeac2960 *man/sraMakeObject.Rd
 6e79635328878a948a7d4e45f3f75f56 *man/sraMinuslogL.Rd
